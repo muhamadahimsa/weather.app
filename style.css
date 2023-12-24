@@ -8,6 +8,7 @@
 body {
     background: lightskyblue;
     color: #000;
+    min-height: 100vh;
 }
 
 .img{
@@ -127,13 +128,13 @@ body {
     }
     .search input {
         width: 30vw;
-        padding: .7vw 1.25vw;
+        padding: 1.8vw 3.25vw;
         border-radius: 30px;
-        font-size: 3.2vw;
+        font-size: 3.5vw;
     }
     .search button {
-        width: 5.25vw;
-        height: 5.25vw;
+        width: 8vw;
+        height: 8vw;
         cursor: pointer;
     }
     .search button img {
@@ -160,8 +161,11 @@ body {
         margin-bottom: 5vw;
         padding: 0 3vw;
     }
-    .humidity, .wind {
-        font-size: 2.4vw;
+    .col p{
+        font-size: 3.5vw;
+    }
+    .col .humidity, .col .wind {
+        font-size: 4.2vw;
     }
     .weather{
         display: none;
